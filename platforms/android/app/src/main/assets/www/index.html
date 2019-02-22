@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html manifest="cache.appcache">
 
 <head>
     <meta charset="utf-8" />
@@ -22,21 +22,28 @@
             <p class="event received">Device is Ready</p>
         </div>
     </div>
-    <div>
+    <div style="padding-top:2vh;padding-left:1vh;font-size:1rem;">
         <span id="labHello"></span>
         <div class="flex-column">
             <span id="labDevName"></span>
             <span id="labDevSystem"></span>
             <span id="labDevId"></span>
         </div>
-        <div>
-            <button type="button">添加联系人</button>
+        <div id="divNavigator">
         </div>
+        <span id="labLastLogin"></span>
+        <div id="divOnLineSatus"></div>
+        <div>
+            <img src="https://www.deriqi.com/display/file/f6cb4929-06df-4543-bcf3-dfcf84aecc76" />
+        </div>
+        <button id="btnRefresh" type="button">刷新</button>
     </div>
+
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
         app.initialize();
     </script>
 </body>
+
 </html>
