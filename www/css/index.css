@@ -103,3 +103,7 @@ h1 {
     flex-direction: column;
     justify-content: left;
 }
+
+#imgcache{
+    width:98vw;
+}
