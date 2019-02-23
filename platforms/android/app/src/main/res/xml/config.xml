@@ -29,9 +29,9 @@
     <feature name="FileTransfer">
         <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
     </feature>
-    <name>Hello</name>
+    <name>PhoneGap Test</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Test PhoneGap App
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
